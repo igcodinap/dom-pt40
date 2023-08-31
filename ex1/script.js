@@ -4,7 +4,7 @@ const obtTitleElement = {
   innerHTML: "Hello, World!",
   id: "title",
 };
-console.log(titleElement.id);
+console.dir(titleElement);
 titleElement.innerHTML = "Hello, DOM!";
 
 

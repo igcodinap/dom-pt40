@@ -1,7 +1,10 @@
 const key = document.getElementById("keyInput");
 
-key.addEventListener("keydown", function(event) {
-  console.log(`Key pressed: ${event.code}`);
+key.addEventListener("keydown", function(e) {
+  console.log(`Key pressed: ${e.code}`);
+  if (e.code === "Enter") {
+    console.log("ENTERRRRR!");
+  }
 });
 
 
